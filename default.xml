@@ -631,6 +631,6 @@
   <include name="remove.xml" />
 
   <!-- Add all tracked repos -->
-  <include name="caosp_default.xml" />
+  <include name="aaosp_default.xml" />
   
 </manifest>
