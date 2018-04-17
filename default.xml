@@ -630,7 +630,7 @@
   <!-- All repos to be removed -->
   <include name="remove.xml" />
 
-  <!-- Add all tracked repos -->
+  <!-- All tracked repos -->
   <include name="aaosp_default.xml" />
   
 </manifest>

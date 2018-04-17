@@ -59,6 +59,7 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/chromium-webview" />
+
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
 
@@ -86,6 +87,7 @@
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Gallery" />
