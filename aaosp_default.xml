@@ -60,6 +60,6 @@
 
   <!-- Vendor -->
   <project path="vendor/aaosp" name="platform_vendor_aaosp" remote="aaosp" />
-  <project path="vendor/moto" name="A-AOSP/proprietary_vendor_moto" remote="aaosp" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="aaosp" />
 
 </manifest>
