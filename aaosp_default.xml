@@ -33,7 +33,7 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aaosp" />
 
   <!-- Device -->
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="aaosp" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="aaosp" revision="testing" />
 
   <!-- External  -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="aaosp" />
