@@ -26,9 +26,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Bionic -->
-  <project path="bionic" name="platform_bionic" remote="aaosp" />
-
   <!-- Bootable recovery -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="aaosp" />
 
@@ -60,6 +57,6 @@
 
   <!-- Vendor -->
   <project path="vendor/aaosp" name="platform_vendor_aaosp" remote="aaosp" />
-  <project path="vendor/moto" name="proprietary_vendor_moto" remote="aaosp" />
+  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="aaosp" />
 
 </manifest>
