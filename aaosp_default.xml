@@ -60,6 +60,6 @@
   <!-- Vendor -->
   <project path="vendor/aaosp" name="platform_vendor_aaosp" remote="aaosp" />
   <project path="vendor/moto" name="proprietary_vendor_motorola" remote="aaosp" />
-  <project path="vendor/huawei" name="android_vendor_huawei remote="aaosp" />
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="aaosp" />
 
 </manifest>
