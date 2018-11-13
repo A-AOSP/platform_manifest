@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r29"
+  <default revision="refs/tags/android-8.1.0_r30"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -15,7 +15,7 @@
 
   <remote  name="r23"
            fetch="https://android-review.googlesource.com/"
-           revision="refs/tags/android-8.1.0_r23"
+           revision="refs/tags/android-8.1.0_r30"
            remote="r23" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
