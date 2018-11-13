@@ -8,11 +8,12 @@
            sync-c="true"
            sync-f="true"
            sync-j="12" />
-
   <remote  name="p"
            fetch="https://android.googlesource.com/"
            revision="refs/tags/android-p-preview-1" />
-
+  <remote  name="los"
+           fetch="https://github.com/LineageOS/"
+           revision="lineage-15.1" />
   <remote  name="r23"
            fetch="https://android-review.googlesource.com/"
            revision="refs/tags/android-8.1.0_r30"
@@ -242,7 +243,7 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" />
+  <project path="external/libvorbis" name="android_external_libvorbis" remote="los" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
